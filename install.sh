@@ -26,9 +26,10 @@ brew install \
     bat \
     exa \
     fd \
-    macvim \
+    fzf \
     pyenv \
     ripgrep \
+    vim \
     zlib \
     zsh
 
@@ -41,15 +42,14 @@ brew cask install flux
 brew cask install firefox
 brew cask install font-firacode-nerd-font
 brew cask install imageoptim
+brew cask install plex-media-server
 brew cask install qlimagesize
 brew cask install qlmarkdown
 brew cask install spectacle
 brew cask install the-unarchiver
 brew cask install transmission
-brew cask install vim
 brew cask install visual-studio-code
 brew cask install vlc
 
 # Remove brew cruft
 brew cleanup
-
