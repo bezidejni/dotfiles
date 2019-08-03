@@ -21,9 +21,9 @@ brew upgrade
 
 # Install my brew packages
 brew install \
-    autoenv \
     autojump \
     bat \
+    direnv \
     exa \
     fd \
     fzf \
@@ -43,9 +43,13 @@ brew cask install firefox
 brew cask install font-firacode-nerd-font
 brew cask install imageoptim
 brew cask install plex-media-server
+brew cask install insomnia
+brew cask install kaleidoscope
+brew cask install macdown
 brew cask install qlimagesize
 brew cask install qlmarkdown
 brew cask install spectacle
+brew cask install spotify
 brew cask install the-unarchiver
 brew cask install transmission
 brew cask install visual-studio-code
